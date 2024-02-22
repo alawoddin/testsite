@@ -18,6 +18,11 @@ title.textContent = 'heading';
 var content = document.createElement('p');
 content.textContent = "how are you dear man are find i hope your find "
 
+//create image 
+var img = document.createElement('img');
+img.src = '../1.png';
+img.alt = 'new car ';
+
 
 //get div contianer 
 
@@ -26,3 +31,4 @@ var container = document.getElementById('container');
 //include h1 into container 
 container.appendChild(title);
 container.appendChild(content);
+container.appendChild(img);
